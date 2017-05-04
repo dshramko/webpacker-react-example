@@ -18,7 +18,7 @@ class Dropdown extends Component {
     }
     return (
       <div onClick={this.toggleState.bind(this)}>
-        It's text dropdown, baby!(click me)
+        It is text dropdown, baby!(click me)
         { dropdownText }
       </div>
     );
